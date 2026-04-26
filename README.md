@@ -19,11 +19,6 @@ These metrics are computed using the same definitions described in the manuscrip
 
 ## Clarification on Performance
 
-The performance observed in this benchmark may be higher than the values reported in the manuscript. This is expected. The benchmark isolates the core signal processing pipeline and excludes several components present in the full system, including:
-
-- Socket-based data streaming
-- File I/O (CBT parsing)
-- Visualization rendering (GUI)
-- Logging and system-level overhead
+The performance observed in this benchmark may be higher than the values reported in the manuscript. This is expected. The benchmark isolates the core signal processing pipeline and excludes several components present in the full system, including socket-based data streaming, file I/O (CBT parsing), GUI, logging and system-level overhead.
 
 As a result, the benchmark reflects **algorithm-level performance**, whereas the manuscript reports **end-to-end system performance**. The benchmark implementation preserves FFT size and overlap, frequency band selection, temporal smoothing, and section-based spatial mapping (snake geometry).
