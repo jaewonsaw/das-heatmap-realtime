@@ -1,10 +1,10 @@
 # das-heatmap-realtime
 
-This repository provides a minimal reproducible reference implementation of the processing pipeline described in the paper _Near Real-Time Traffic Event Monitoring Using Distributed Acoustic Sensing on an Instrumented Roadway_. This repository supports the quantitative performance analysis presented in the manuscript. The included `benchmark.py` script is designed to reproduce the computational behavior of the system using synthetic streaming data. 
+This repository provides a minimal reproducible reference implementation of the processing pipeline described in the paper _Near Real-Time Traffic Event Monitoring Using Distributed Acoustic Sensing on an Instrumented Roadway_. This repository supports the quantitative performance analysis presented in the manuscript.
 
 ## Synthetic data
 
-The benchmark uses Gaussian noise to simulate DAS phase measurements. This allows reproducible evaluation of computational performance without requiring access to proprietary datasets or site-specific infrastructure.
+The included `benchmark.py` script is designed to reproduce the computational behavior of the system using synthetic streaming data. It uses Gaussian noise to simulate DAS phase measurements. This allows reproducible evaluation of computational performance without requiring access to proprietary datasets or site-specific infrastructure.
 
 ## Performance metrics
 
