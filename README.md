@@ -39,7 +39,8 @@ The performance reported in the manuscript reflects end-to-end system behavior, 
 
 ## How to Run
 
-Install dependencies:
+Install dependencies and run the benchmark:
 
 ```bash
 pip install -r requirements.txt
+python benchmark.py
