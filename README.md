@@ -1,6 +1,6 @@
 # das-heatmap-realtime
 
-This repository provides a minimal reproducible reference implementation of the processing pipeline described in the paper _Near Real-Time Traffic Event Monitoring Using Distributed Acoustic Sensing on an Instrumented Roadway_. This repository supports the quantitative performance analysis presented in the manuscript.
+This repository provides a minimal reproducible reference implementation of the processing pipeline described in the paper _Near Real-Time Traffic Event Monitoring Using Distributed Acoustic Sensing on an Instrumented Roadway_ (Saw, Yartsev, Dong, Hubbard, Soga). This repository supports the quantitative performance analysis presented in the manuscript.
 
 ## Synthetic data
 
