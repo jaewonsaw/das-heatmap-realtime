@@ -33,11 +33,11 @@ These components introduce system- and hardware-dependent variability that is di
 
 All algorithmic parameters (FFT size, overlap, frequency band, smoothing, and cable geometry) are consistent with those used in the manuscript. This allows reproducible evaluation of the performance metrics listed above.
 
-## Relationship to Manuscript Results
+## Relationship to manuscript results
 
 The performance reported in the manuscript reflects end-to-end system behavior, including data acquisition and visualization overhead. In contrast, this benchmark reports algorithm-level performance. As a result, the benchmark may achieve higher frame rates and lower latency than the full system.
 
-## How to Run
+## How to run
 
 Install dependencies and run the benchmark:
 
